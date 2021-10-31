@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+  padding: 30px;
+}
+
+.headButton {
+  text-align: right;
+
+  button {
+    padding: 15px;
+    background-color: red;
+    border: 1px #ddd solid;
+    color: white;
+    outline: none;
+    border-radius: 20px;
+    &:hover {
+      background: darkred;
+    }
+  }
+}
+
+.content {
+  position: relative;
+  width: 512px;
+  height: 512px;
+  margin: 0 auto;
+  .apples {
+    .apple {
+      width: 48px;
+      height: 48px;
+      position: absolute;
+      z-index: 9;
+    }
+  }
+}
+
+.basket {
+  text-align: right;
+  .apples {
+    position: relative;
+    width: 200px;
+    float: right;
+    .apple {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
